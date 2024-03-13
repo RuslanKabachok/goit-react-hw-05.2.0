@@ -1,9 +1,6 @@
 import axios from 'axios';
 
 export default async function fetchMovies(url) {
-  // const url =
-  //   'https://api.themoviedb.org/3/search/movie?include_adult=false&language=en-US&page=1';
-
   const options = {
     headers: {
       Authorization:

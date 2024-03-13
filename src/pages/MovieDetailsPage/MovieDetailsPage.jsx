@@ -1,7 +1,7 @@
 import { NavLink, useParams, Outlet, useLocation } from 'react-router-dom';
 import { useEffect, useState, useRef, Suspense } from 'react';
 import { BiArrowBack } from 'react-icons/bi';
-import fetchMovies from '../../сomponents/api';
+import fetchMovies from '../../components/api';
 import css from '../MovieDetailsPage/MovieDetailsPage.module.css';
 
 function MovieDetailsPage() {
